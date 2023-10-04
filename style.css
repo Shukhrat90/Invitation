@@ -1,0 +1,503 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+
+body {
+  background-color: rgb(64, 21, 31);
+  padding: 20px 5px;
+    border-radius: 30px;
+    border: 5px solid rgb(222, 144, 144);
+}
+
+
+.container {
+  max-width: 1920px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.blok {
+  display: flex;
+}
+
+
+.titl_7 {
+  font-size: 30px;
+  color: rgb(247, 215, 2);
+}
+
+.image{
+  max-width: 100px;
+}
+
+  
+  .promo {
+    background-image: url(../фон.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 73%;
+    margin: 5px;
+    min-height: 100vh;
+    
+  }
+
+  .promo-inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align: center;
+    padding-left: 15px;
+    color:  rgb(238, 110, 140);
+  }
+  
+  .titl {
+    font-size: 20px;
+    margin-top: 300px;
+  }
+  
+  
+  
+  .subtitl {
+    font-family: 'Pacifico', cursive;
+    align-self: center;
+    font-size: 35px;
+    width: 150px;
+    margin: 0;
+  }
+  
+  .titl_1{
+    font-size: 20px;
+    width: 260px;
+    text-transform: uppercase;
+  }
+
+  .text {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 10px;
+    font-size: 25px;
+    width: 250px;
+  }
+
+  .titl_2 {
+    font-size: 20px;
+    width: 260px;
+    text-transform: uppercase;
+    
+  }
+  
+  .countdown-wrapper {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .year {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    line-height: 1;
+    z-index: -1;
+    opacity: 0.2;
+  }
+  
+  .countdown {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+  
+  .time h2 {
+    margin: 5px;
+    font-size: 30px;
+  }
+  
+  .time small {
+    font-size: 25px;
+  }
+  
+  .promo_2{
+    background-image: url(../images/фон.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+    margin: 5px;
+  }
+
+  .big-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align: center;
+    color: rgb(249, 14, 14);
+    min-height: 100vh;
+    padding: 0 5px;
+  }
+
+  .titl_3 {
+    font-family: 'Pacifico', cursive;
+    padding-top: 150px;
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .titl_3{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin: 0 
+  }
+
+  .text_1{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    max-width: 1000px;
+  }
+
+
+  .titl_4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .titl_5{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+  }
+
+  .adres {
+    font-size: 25px;
+    margin: 0;
+    color: rgb(37, 37, 112);
+    
+  }
+
+  .btn{
+    background-color: rgb(115, 172, 242);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .titl_6{
+    font-size: 20px;
+  }
+
+  .subtitl_1,
+  .subtitl_2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+  }
+
+  .subtitl_2{
+    margin: 0 0 30px;
+  }
+
+
+
+ @media (min-width: 768px){
+    .blok {
+      display: flex;
+      justify-content: center;
+    }
+    .titl_7 {
+      font-size: 50px;
+      color: rgb(248, 240, 240);
+    }
+    
+    .image{
+      max-width: 150px;
+    }
+    
+      .titl {
+        font-size: 30px;
+        margin-top: 300px;
+      }
+      
+      
+      
+      .subtitl {
+        font-family: 'Pacifico', cursive;
+        align-self: center;
+        font-size: 50px;
+        min-width: 150px;
+        margin: 0;
+      }
+      
+      .titl_1{
+        font-size: 30px;
+        min-width: 400px;
+        text-transform: uppercase;
+      }
+    
+      .text {
+        font-family: 'Pacifico', cursive;
+        margin-bottom: 40px;
+        font-size: 40px;
+        min-width: 400px;
+      }
+    
+    
+      .titl_3 {
+        font-family: 'Pacifico', cursive;
+        padding-top: 250px;
+        font-size: 50px;
+        margin: 0;
+      }
+    
+      .text_1{
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        max-width: 700px;
+      }
+    
+      .titl_4{
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+        margin: 0 
+      }
+    
+      .titl_5 {
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+      }
+    
+      .titl_6{
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+      }
+    
+      .adres {
+        font-size: 40px;
+        margin: 0;
+        color: rgb(37, 37, 112);
+        padding: 10px;
+        
+      }
+    
+      .btn{
+        background-color: rgb(235, 78, 78);
+        border-radius: 30px;
+        border: 1px solid #000;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        font-size: 30px;
+        cursor: pointer;
+
+      }
+      
+      .titl_6{
+        font-size: 50px;
+      }
+    
+      .subtitl_1,
+      .subtitl_2 {
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+      }
+      
+      .year {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 200px;
+        line-height: 1;
+        z-index: -1;
+        opacity: 0.2;
+      }
+      
+      .countdown {
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px;
+      }
+      
+      .time h2 {
+        margin: 0 0 10px;
+        font-size: 60px;
+      }
+      
+      .time small {
+        font-size: 36px;
+  }
+} 
+
+@media (min-width: 1280px) {
+  .blok {
+    display: flex;
+    justify-content: center;
+   }  
+
+  .titl_7 {
+    font-size: 60px;
+    color: rgb(248, 240, 240);
+  }
+  
+  .image{
+    max-width: 200px;
+  }
+
+  .promo-inner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-align: center;
+    color: rgb(249, 14, 14);
+
+  }
+  
+    .titl {
+      font-size: 40px;
+      margin-top: 300px;
+      max-width: 700px;
+    }
+    
+    
+    
+    .subtitl {
+      font-family: 'Pacifico', cursive;
+      align-self: center;
+      font-size: 80px;
+      min-width: 700px;
+      margin: 50px;
+    }
+    
+    .titl_1{
+      font-size: 40px;
+      min-width: 900px;
+      text-transform: uppercase;
+    }
+  
+    .text {
+      font-family: 'Pacifico', cursive;
+      margin-bottom: 40px;
+      font-size: 60px;
+      min-width: 700px;
+    }
+  
+    .year {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 200px;
+      line-height: 1;
+      z-index: -1;
+      opacity: 0.2;
+    }
+    
+    .countdown {
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .time {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 30px;
+    }
+    
+    .time h2 {
+      margin: 0 0 10px;
+      font-size: 70px;
+    }
+    
+    .time small {
+      font-size: 50px;
+}
+    .titl_3 {
+      font-family: 'Pacifico', cursive;
+      padding-top: 250px;
+      font-size: 70px;
+      margin: 30px;
+    }
+  
+    .text_1{
+      font-family: 'Pacifico', cursive;
+      font-size: 60px;
+      min-width: 1220px;
+    }
+  
+    .titl_4{
+      font-family: 'Pacifico', cursive;
+      font-size: 70px;
+      margin: 0 
+    }
+  
+    .titl_5 {
+      font-family: 'Pacifico', cursive;
+      font-size: 70px;
+    }
+  
+  
+    .adres {
+      font-size: 60px;
+      margin: 0;
+      color: rgb(37, 37, 112);
+      padding: 10px;
+      
+    }
+  
+    .btn{
+      background-color: rgb(249, 14, 14);
+
+      border-radius: 30px;
+      border: 1px solid #000;
+      color: rgb(255, 255, 255);
+      padding: 10px 20px;
+      font-size: 50px;
+      cursor: pointer;
+
+    }
+    
+    .titl_6{
+      font-size: 50px;
+    }
+  
+    .subtitl_1,
+    .subtitl_2 {
+      font-family: 'Pacifico', cursive;
+      font-size: 70px;
+    }
+}
+
+  
+  
