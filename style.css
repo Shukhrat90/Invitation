@@ -20,6 +20,10 @@ body {
     border: 5px solid rgb(222, 144, 144);
 }
 
+h2 {
+  color: brown;
+}
+
 
 .container {
   max-width: 1920px;
@@ -34,7 +38,7 @@ body {
 
 .titl_7 {
   font-size: 30px;
-  color: rgb(247, 215, 2);
+  color: rgb(251, 218, 5);
 }
 
 .image{
@@ -64,7 +68,7 @@ body {
   
   .titl {
     font-size: 20px;
-    margin-top: 300px;
+    margin-top: 270px;
   }
   
   
@@ -87,6 +91,7 @@ body {
     font-family: 'Pacifico', cursive;
     margin-bottom: 10px;
     font-size: 25px;
+    color: brown;
     width: 250px;
   }
 
@@ -102,6 +107,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    color: brown;
   }
   
   .year {
@@ -113,6 +119,7 @@ body {
     line-height: 1;
     z-index: -1;
     opacity: 0.2;
+
   }
   
   .countdown {
@@ -139,20 +146,20 @@ body {
   }
   
   .promo_2{
-    background-image: url(../images/фон.jpg);
+    background-image: url(../фон.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40%;
     margin: 5px;
   }
 
-  .big-container{
+  .promo-inner_2{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
     text-align: center;
-    color: rgb(249, 14, 14);
+    color:  rgb(238, 110, 140);
     min-height: 100vh;
     padding: 0 5px;
   }
@@ -160,15 +167,12 @@ body {
   .titl_3 {
     font-family: 'Pacifico', cursive;
     padding-top: 150px;
-    font-size: 40px;
+    color: brown;
+    font-size: 30px;
     margin: 0;
   }
 
-  .titl_3{
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    margin: 0 
-  }
+  
 
   .text_1{
     font-family: 'Pacifico', cursive;
@@ -180,12 +184,15 @@ body {
   .titl_4 {
     font-family: 'Pacifico', cursive;
     font-size: 25px;
+    color: brown;
     margin: 0;
   }
 
   .titl_5{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    color: brown;
+
   }
 
   .adres {
@@ -205,20 +212,32 @@ body {
   }
   
   .titl_6{
-    font-size: 20px;
+    font-size: 22px;
+    margin: 0 10px;
   }
 
   .subtitl_1,
   .subtitl_2 {
     font-family: 'Pacifico', cursive;
     font-size: 25px;
+    color: brown;
   }
 
   .subtitl_2{
     margin: 0 0 30px;
   }
 
-
+  @media (min-width: 390px){
+    .titl {
+      margin-top: 350px;
+    }
+    .text {
+      margin-bottom: 50px;
+    }
+    .subtitl_1{
+      margin-top: 50px;
+    }
+  }
 
  @media (min-width: 768px){
     .blok {
@@ -227,7 +246,7 @@ body {
     }
     .titl_7 {
       font-size: 50px;
-      color: rgb(248, 240, 240);
+      color: rgb(251, 218, 5);
     }
     
     .image{
@@ -375,10 +394,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: flex-end;
+    align-content: flex-start;
     text-align: center;
-    color: rgb(249, 14, 14);
-
   }
   
     .titl {
@@ -409,13 +426,13 @@ body {
       font-size: 60px;
       min-width: 700px;
     }
-  
+
     .year {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 200px;
+      font-size: 300px;
       line-height: 1;
       z-index: -1;
       opacity: 0.2;
@@ -424,7 +441,7 @@ body {
     .countdown {
       display: none;
       align-items: center;
-      justify-content: center;
+      justify-content: space-evenly;
     }
     
     .time {
@@ -442,20 +459,21 @@ body {
     
     .time small {
       font-size: 50px;
-}
+    }
+  
     .titl_3 {
       font-family: 'Pacifico', cursive;
       padding-top: 250px;
       font-size: 70px;
       margin: 30px;
     }
-  
+    
     .text_1{
       font-family: 'Pacifico', cursive;
       font-size: 60px;
       min-width: 1220px;
     }
-  
+    
     .titl_4{
       font-family: 'Pacifico', cursive;
       font-size: 70px;
@@ -469,7 +487,7 @@ body {
   
   
     .adres {
-      font-size: 60px;
+      font-size: 50px;
       margin: 0;
       color: rgb(37, 37, 112);
       padding: 10px;
@@ -497,6 +515,7 @@ body {
       font-family: 'Pacifico', cursive;
       font-size: 70px;
     }
+    
 }
 
   
